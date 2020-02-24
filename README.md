@@ -1,4 +1,4 @@
-# drone-json
+# drone-yaml-verify
 [![Build Status](https://cloud.drone.io/api/badges/viant/drone-yaml-verify/status.svg)](https://cloud.drone.io/viant/drone-yaml-verify)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/viant/drone-yaml-verify/blob/master/LICENSE)
 
