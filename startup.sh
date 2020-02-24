@@ -8,9 +8,9 @@ then
     do
         if [ -n "$DEBUG" ]
         then
-            cat "$v" | yq .
+            cat "$v" | yq r -j --prettyPrint -
         else
-            cat "$v" | yq . > /dev/null 2>&1
+            cat "$v" | yq r -j --prettyPrint - > /dev/null 2>&1
         fi
         if [[ $? == 0 ]]
         then
@@ -32,9 +32,9 @@ then
         do
             if [ -n "$DEBUG" ]
             then
-                cat "$v" | yq .
+                cat "$v" | yq r -j --prettyPrint -
             else
-                cat "$v" | yq . > /dev/null 2>&1
+                cat "$v" | yq r -j --prettyPrint - > /dev/null 2>&1
             fi
             if [[ $? == 0 ]]
             then
