@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.8
 
 # Install required packages
 RUN apk --no-cache add bash python py-yaml wget
